@@ -1,50 +1,49 @@
-# str = "Hola mundo"
-# puts str.length
-
-# puts str[0]
-# puts str[1]
-# puts str[2]
-# puts str[3]
+# # str = "Hola mundo"
 
 
+# # chars = str.chars
 
-# chars = str.chars # ["H", "o", "l", "a", " ", "m", "u", "n", "d", "o"]
-# chars.each do |c|
-#   puts c
-# end
+# # chars.each do |c|
+# #   puts c
+# # end
 
 
 
 
-#  "Hola mundo".split(" ")
+# #  "Hola mundo".split(" ")
 
-#  "prueba,separar,cadenas".split(",")
-
-
-#  ["Hola", "mundo"].join(" ")
+# #  "prueba,separar,cadenas".split(",")
 
 
-#  	"a" * 5 # aaaaa
-#   "".empty? # true
-	"hola mundo".capitalize # Hola mundo
-
-"Hola mundo".gsub("mundo", "Germán") # Hola Germán
-
-"Hola".upcase # HOLA
-"HoLa".downcase # hola
+# puts ["Hola", "mundo"].join("--")
 
 
- a = "hello "
+# puts "a" * 5
+# puts "".empty?
+# puts "hola mundo".capitalize
+
+# puts "Hola mundo mundo mundo".gsub("mundo", "JC")
+
+
+# puts "Hola".upcase # HOLA
+# puts "HOLA".downcase # hola
+
+
 # a << "world"
 
+# puts a + " " + "world"
 
-# a[1]
+# # a[1]
 # a[2, 3]
 # a[2..3]
+
+
 # print "string\n"
 # print "string\n".chop
 # print "last line"
 
-#a.chr  #first letter
+a = "hello mundo mundo mundo"
+p a.chr
+p a.count('')
 
-p a.count('l')
+
