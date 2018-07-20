@@ -1,58 +1,29 @@
-# def hello
-#    "Hola mundo"
-# end
+def hello
+   puts "Hola mundo"
+end
+
+hello
+hello()
 
 
-# puts hello() #
+def hello2(name)
+  puts "Hola #{name}"
+end
 
-# def hello(name)
-#   puts "Hola #{name}"
-# end
+hello2('juan')
+hello2 'juan'
 
-# hello
-# hello2('juan')
-# hello2 'juan'
-
-
-
-# # hello("Germán")
-# # hello("David")
-
-# # def hello(name)
-# #   "Hola #{name}"
-# # end
-
-# # puts hello("Germán")
-# # puts hello "David"  # los paréntesis son opcionales
-
-
-
-
-
-# # def hello(name)
-# #   return "Hola #{name}"
-# # end
-
-puts hello("Germán")
-puts hello "David"
-
-
-
+# asignando un alias
 def viejo_metodo
   "viejo metodo"
 end
 
 alias nuevo_metodo viejo_metodo
 
+puts nuevo_metodo
+
+# sobreescribiendo un metodo
 def viejo_metodo
   "viejo metodo mejorado"
 end
 puts viejo_metodo
-
-
-
-
-
-
-
-# # pasar el  codigo que captura los telefonos, a un metodo y agrega un metodo al que se le pueda pedir un telefono guardado en el directorio.

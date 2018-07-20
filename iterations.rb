@@ -1,3 +1,5 @@
+# ejericicio de edivinar un numero con un maximo de 3 intentos
+
 num_attempts = 0
 number = rand(1..10)
 
